@@ -1,23 +1,18 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* Descripiton : var and negative number
-*
-* Return: Alawys 0 (success)
-*/
+ * main - main block
+ * Description: Print the alphabet in reverse order in lowercase.
+ * Return: 0
+ */
 int main(void)
 {
-	int digit = 48;
+	char c;
 
-	while(digit <= 102)
+	for (c = 'z'; c >= 'a'; c--)
 	{
-		putchar(digit);
-
-	if (digit == 57)
-		digit += 39;
-	digit++;
+		putchar(c);
 	}
 	putchar('\n');
+
 	return (0);
 }

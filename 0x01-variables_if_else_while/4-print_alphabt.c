@@ -1,21 +1,18 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* Descripiton : print all alpha
-*
-* Return: Alawys 0 (success)
-*/
+ * main - main block
+ * Description: Use `putchar` to print all letters.
+ * Return: 0
+ */
 int main(void)
 {
-	char ch = 'a';
+	char c = 'a';
 
-	while (ch <= 'z')
+	while (c <= 'z')
 	{
-		if (ch == 'e' || ch =='q')
-			ch++;
-		putchar(ch);
-		ch++;
+		if (c != 'q' && c != 'e')
+			putchar(c);
+		c++;
 	}
 	putchar('\n');
 

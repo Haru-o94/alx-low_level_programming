@@ -1,27 +1,27 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* Descripiton : var and negative number
-*
-* Return: Alawys 0 (success)
-*/
+ * main - main block
+ * Description: Use `putchar` to print lowercase and then uppercase alphabet.
+ * Return: 0
+ */
 int main(void)
 {
-	char ch = 'a';
-	char CH = 'A';
-	/*display a-z*/
-	while (ch <= 'z')
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(c);
+		c++;
 	}
-	/*display A-Z*/
-	while(CH <= 'Z')
+
+	c = 'A';
+
+	while (c <= 'Z')
 	{
-		putchar(CH);
-		CH++;
+		putchar(c);
+		c++;
 	}
+
 	putchar('\n');
 
 	return (0);

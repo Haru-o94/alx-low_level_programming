@@ -1,20 +1,16 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* Descripiton : print while using putchar
-*
-* Return: Alawys 0 (success)
-*/
+ * main - main block
+ * Description: Print numbers of base 10.
+ * Return: 0
+ */
 int main(void)
 {
-	int digit = 0;
+	int i;
 
-	while (digit <= 9)
+	for (i = 0; i < 10; i++)
 	{
-		/*convert digit*/
-		putchar(digit + '0');
-		digit++;
+		printf("%i", i);
 	}
 	putchar('\n');
 

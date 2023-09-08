@@ -1,26 +1,25 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* Descripiton : var and negative number
-*
-* Return: Alawys 0 (success)
-*/
+ * main - main block
+ * Description: Print all possible combinations fo single-digit numbers.
+ * Numbers must be separated by commas and a space.
+ * You can only use `putchar` up to four times.
+ * You are not allowed to use any variable of type `char`.
+ * Return: 0
+ */
 int main(void)
 {
-	int digit = 0;
+	int i = 0;
 
-	while (digit <= 9)
+	while (i < 10)
 	{
-		putchar(digit + 48);
-
-		if (digit != 9)
+		putchar(i + '0');
+		if (i < 9)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(44);
+			putchar(32);
 		}
-
-		digit++;
+		i++;
 	}
 	putchar('\n');
 
