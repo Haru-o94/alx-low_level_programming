@@ -1,9 +1,11 @@
 #include <stdio.h>
-/*
- *main : print the size of type
- *desc : all of the size
- *
- */
+/**
+* main - Entry point
+*
+* Descripiton : print the size of type
+*
+* Return: Alawys 0 (success)
+*/
 int main(void)
 {
 	printf("Size of a char: %u byte(s)\n", sizeof(char));
