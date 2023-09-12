@@ -7,7 +7,7 @@
 * Return: 1 if c + or 0 if zero or -1 less than 0
 */
 
-int _isalpha(int n)
+int print_sign(int n)
 {
 if (n > 0)
 {
