@@ -3,7 +3,7 @@
 /**
 * main - Entry point
 *
-* Description : print 10x line
+* print_alphabet_x10 - function that will print the alpha
 *
 * Return: Always 0 (Success)
 */

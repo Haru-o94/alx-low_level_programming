@@ -3,7 +3,7 @@
 /**
 * main - Entry point
 *
-* Description : print_alphabet - print the alpha from a to z
+* print_alphabet - print all letter from a to z
 *
 * Return: Always 0 (Success)
 */
