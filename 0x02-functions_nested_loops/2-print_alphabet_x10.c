@@ -3,16 +3,19 @@
 /**
 * main - Entry point
 *
-* Description : print_alpha - utilizes on the _putchar
+* Description : print 10x line
 *
 * Return: Always 0 (Success)
 */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-int ch;
+int line, ch;
 
+for (line = 0; line <= 9; line++)
+{
 for (ch = 'a'; ch <= 'z'; ch++)
 _putchar(ch);
 _putchar('\n');
+}
 }
