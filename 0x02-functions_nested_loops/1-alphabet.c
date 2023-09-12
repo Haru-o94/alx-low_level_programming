@@ -4,6 +4,7 @@
 * main - Entry point
 *
 * print_alphabet - print all letter from a to z
+* print lowercase
 *
 * Return: Always 0 (Success)
 */
