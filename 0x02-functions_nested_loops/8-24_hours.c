@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* jack_bauer - check if char lowercase
+* jack_bauer - check if clock
 * @n: check of the input
 *
 */
 
-int jack_bauer(void)
+void jack_bauer(void)
 {
 int min, hr;
 
