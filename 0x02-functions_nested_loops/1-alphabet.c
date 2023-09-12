@@ -1,8 +1,6 @@
 #include "main.h"
 
 /**
-* main - Entry point
-*
 * print_alphabet - print all letter from a to z
 * print lowercase
 *
