@@ -2,7 +2,7 @@
 
 /**
 * jack_bauer - check if clock
-* @n: check of the input
+* @void: check of the input
 *
 */
 
