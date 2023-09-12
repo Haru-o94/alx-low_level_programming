@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _print_last_digit - check if char lowercase
+* print_last_digit - check of the last digit
 * @n: check of the input
 *
 * Return: Always 0 (Success)
