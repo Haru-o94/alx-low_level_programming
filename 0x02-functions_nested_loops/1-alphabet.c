@@ -3,7 +3,7 @@
 /**
 * main - Entry point
 *
-* Description : print_alpha - utilizes on the _putchar
+* Description : print_alphabet - print the alpha from a to z
 *
 * Return: Always 0 (Success)
 */
