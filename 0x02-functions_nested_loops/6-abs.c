@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _abs - check if char lowercase
+* _abs - check if number
 * @n: check of the input
 *
 * Return: Always 0 (Success)
