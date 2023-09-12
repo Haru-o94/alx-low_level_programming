@@ -3,12 +3,16 @@
 /**
 * main - Entry point
 *
-* Description : print _putchar by prototype
+* Description : print_alpha - utilizes on the _putchar
 *
 * Return: Always 0 (Success)
 */
 
-int main(void)
+void print_alphabet(void)
 {
+int ch;
 
+for (ch = 'a'; ch <= 'z'; ch++)
+_putchar(ch);
+return (0);
 }
