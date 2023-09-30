@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *_puts_recursion - print a string with recursion
- *@s: string that we need to print
+ *_puts_recursion - printn a string recursion way
+ *@s: the input that need to print
  *
  *Return: no return
  */

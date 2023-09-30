@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*longitud - function that returns the power of number
+*longitud - returns the power of number
 *@s: string
 *
 *Return: length of a string
@@ -17,7 +17,7 @@ int longitud(char *s)
 	return (l);
 }
 /**
- *comparar - function that returns the power of number
+ *comparar - returns the power of number
  *@i: original number
  *@l: counter to compare multiplication
  *@s: string

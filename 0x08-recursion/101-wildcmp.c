@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *wildcmp - function that returns the power of number
+ *wildcmp - returns the power of number
  *@s1: string
  *@s2: string to compare
  *Return: 1 if the strings are identical or 0 if it is not

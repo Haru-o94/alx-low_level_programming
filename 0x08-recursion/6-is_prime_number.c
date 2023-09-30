@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *comparar - function that returns the power of number
+ *comparar - compare and returns the power of number
  *@n: original number
  *@y: counter to compare multiplication
  *
