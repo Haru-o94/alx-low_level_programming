@@ -4,7 +4,7 @@
 
 /**
  * str_concat - merge two string.
- * @s1: first 
+ * @s1: first
  * @s2: second
  * Return: a pointer to a newly allocated space in memory which
  * contains the contents of s1, followed by the contents of s2,
