@@ -6,7 +6,7 @@
 
 /**
  * is_digit - check from the string
- * @s: string 
+ * @s: string
  *
  * Return: 0 if a non-digit is found, 1 otherwise
  */
@@ -25,7 +25,7 @@ int is_digit(char *s)
 
 /**
  * _strlen - return length
- * @s: string 
+ * @s: string
  *
  * Return: the length of the string
  */
