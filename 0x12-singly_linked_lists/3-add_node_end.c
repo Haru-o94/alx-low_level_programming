@@ -2,18 +2,18 @@
 
 /**
  * add_node_end - new node in the end (tail)
- * of a sing_l list.
+ * of a list_t list.
  * @head: head
  * @str: str save link list
  * Return: addr of head.
  */
 
-sing_l *add_node_end(sing_l **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
-	sing_l *new_node, *temp;
+	list_t *new_node, *temp;
 	size_t new_char;
 
-	new_node = malloc(sizeof(sing_l));
+	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
 		return (NULL);
 

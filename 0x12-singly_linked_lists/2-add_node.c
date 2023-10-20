@@ -1,18 +1,18 @@
 #include "lists.h"
 /**
  * add_node - make new_node node
- * of a sing_l list.
+ * of a list_t list.
  * @head: head
  * @str: str save link list
  * Return: addr of head
  */
 
-sing_l *add_node(sing_l **head, const char *str)
+list_t *add_node(list_t **head, const char *str)
 {
-	sing_l *new_node;
+	list_t *new_node;
 	size_t new_char;
 
-	new_node = malloc(sizeof(sing_l));
+	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
 		return (NULL);
 

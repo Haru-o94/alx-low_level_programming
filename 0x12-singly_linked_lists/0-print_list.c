@@ -1,15 +1,15 @@
 #include "lists.h"
 /**
- * print_list - print element in sing_l
+ * print_list - print element in list_t
  * @h: link list.
  * Return: num of element
  */
 
-size_t print_list(const sing_l *h)
+size_t print_list(const list_t *h)
 {
-	size_t nelem;
+	size_t nodee;
 
-	nelem = 0;
+	nodee = 0;
 	while (h != NULL)
 	{
 		if (h->str == NULL)
@@ -17,7 +17,7 @@ size_t print_list(const sing_l *h)
 		else
 			printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
-		nelem++;
+		nodee++;
 	}
-	return (nelem);
+	return (nodee);
 }

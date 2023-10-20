@@ -6,9 +6,9 @@
  * Return: -1 return
  */
 
-void free_list(sing_l *head)
+void free_list(list_t *head)
 {
-	sing_l *curr;
+	list_t *curr;
 
 	while ((curr = head) != NULL)
 	{
