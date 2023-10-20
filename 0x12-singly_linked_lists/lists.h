@@ -1,19 +1,16 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 /**
- * struct sing_list - link list.
+ * struct list_s - sing linkded list
  * @str: string - str
- * @len: size of str
- * @next: nextnode
- * Description: single list with node.
+ * @len: size str
+ * @next: next node
+ *
+ * Description: singly linked list node structure
+ * for Holberton project
  */
-
-typedef struct sing_list
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
