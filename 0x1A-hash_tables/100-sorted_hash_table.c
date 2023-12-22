@@ -117,7 +117,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 }
 
 /**
- * shash_table_get - Retrieve the value 
+ * shash_table_get - Retrieve the value
  * @ht: sort hash
  * @key: key
  *

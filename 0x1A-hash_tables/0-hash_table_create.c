@@ -5,6 +5,7 @@
  * @size: array
  * Return: If an error occurs => null
  */
+
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *ht;
